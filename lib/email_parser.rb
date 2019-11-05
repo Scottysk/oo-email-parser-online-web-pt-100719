@@ -18,6 +18,7 @@ class EmailAddressParser
     .flatten.uniq
   end
   end
+  end
   
   
   
