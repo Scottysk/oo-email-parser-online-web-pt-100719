@@ -15,6 +15,7 @@ class EmailAddressParser
     emails.split.collect.uniq do |email|
       email.delete(",")
     end
+    .flatten.uniq
   end
   
   
