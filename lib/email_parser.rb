@@ -5,8 +5,9 @@
 
 class EmailAddressParser
   
-  def parse(parser)
-    
+  
+  
+  def parse
   end
   
   
