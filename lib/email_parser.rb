@@ -13,9 +13,8 @@ class EmailAddressParser
   
   def parse
     emails.split.collect.uniq do |email|
-      email.delete(",")
+      email.split(",")
     end
-  end
     .flatten.uniq
   end
   end
